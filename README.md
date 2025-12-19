@@ -464,7 +464,6 @@ CREATE TABLE users (
 
 CREATE INDEX idx_users_role 
 ON users(role) TABLESPACE SIEAS_INDEX;
-<img width="479" height="169" alt="3 CREATING USER" src="https://github.com/user-attachments/assets/4c94b03a-ea01-4588-940b-ac71df434c44" />
 
 ```
 
@@ -488,7 +487,6 @@ CREATE TABLE product (
 
 CREATE INDEX idx_product_category 
 ON product(category) TABLESPACE SIEAS_INDEX;
-<img width="958" height="501" alt="10  CREATING TABLE PRODUCT " src="https://github.com/user-attachments/assets/1cd268bc-bbf0-4873-bd27-cd7ab3fe035c" />
 
 ```
 
@@ -516,7 +514,6 @@ CREATE TABLE batch (
 
 CREATE INDEX idx_batch_product ON batch(product_id) TABLESPACE SIEAS_INDEX;
 CREATE INDEX idx_batch_expiry  ON batch(expiry_date) TABLESPACE SIEAS_INDEX;
-<img width="959" height="505" alt="12 CREATE TABLE BATCH" src="https://github.com/user-attachments/assets/d0bd21d7-e68b-4ffc-8b36-a8ab4dc50b4a" />
 
 ```
 
@@ -566,6 +563,8 @@ CREATE TABLE expired_stock (
 CREATE INDEX idx_expired_batch 
 ON expired_stock(batch_id)
 TABLESPACE SIEAS_INDEX;
-<img width="955" height="501" alt="14 CREATING TABLE EXPIRED STOCK" src="https://github.com/user-attachments/assets/253299e3-ba26-4bd5-91c4-3cb73115a9e6" />
+
+
+
 
 ```
