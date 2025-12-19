@@ -413,10 +413,17 @@ ALTER DATABASE DATAFILE '...sieas_data01.dbf' AUTOEXTEND ON NEXT 50M MAXSIZE UNL
 ALTER DATABASE DATAFILE '...sieas_index01.dbf' AUTOEXTEND ON NEXT 50M MAXSIZE UNLIMITED;
 ALTER DATABASE TEMPFILE '...sieas_temp01.dbf' AUTOEXTEND ON NEXT 50M MAXSIZE UNLIMITED;
 ```
+## **Deliverables (Phase IV)**
 
+✔ Verified correct PDB environment
+✔ Created dedicated project user
+✔ Granted required privileges
+✔ Configured DATA, INDEX, and TEMP tablespaces
+✔ Enabled ARCHIVELOG mode
+✔ Tuned SGA and PGA memory
+✔ Enabled autoextend for scalability
 
-
-
+---
 
 
 
