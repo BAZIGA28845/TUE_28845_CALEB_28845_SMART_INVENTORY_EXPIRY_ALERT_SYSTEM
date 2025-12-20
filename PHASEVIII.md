@@ -92,7 +92,19 @@ To support management and administrative decisions by:
 Product Value Trend (by Date)
 Category Contribution Chart
 ```
+B. Audit / User Activity Dashboard
+<img width="948" height="341" alt="BI" src="https://github.com/user-attachments/assets/9e164696-0104-4a15-8676-958aa608c34d" />
 
+
+Purpose: Analyze system usage by user roles.
+
+Visuals Included:
+
+Bar Chart: Sum of PHONE by USER_ID
+
+Stacked Chart: Sum of PHONE by ROLE
+
+Table: USER_ID, ROLE, PHONE
 ---
 
 
