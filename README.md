@@ -61,8 +61,6 @@ Many businesses in Rwanda rely on manual inspection of expiry labels, which is t
 | **Phase VIII** | Final documentation, Business Intelligence analysis, and project presentation             |[PHASEVIII](PHASEVIII.md)                   |
 
 
-Below is a **short, clear summary of every phase**, written in **simple language**, perfect for **final report conclusion, README, or exam revision**.
-
 ---
 
 # **Project Phase Summary – Smart Inventory Expiry Alert System**
