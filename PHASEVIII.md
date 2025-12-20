@@ -11,6 +11,7 @@ It supports **management decisions, compliance monitoring, and system performanc
 ## **1️⃣ Define KPIs That Matter**
 
 These KPIs are chosen because they directly reflect **inventory health, compliance, and system activity**.
+<img width="960" height="501" alt="KPI" src="https://github.com/user-attachments/assets/081a4b4b-d964-4158-9fbf-efee3bbe12ba" />
 
 ### **Inventory KPIs**
 
