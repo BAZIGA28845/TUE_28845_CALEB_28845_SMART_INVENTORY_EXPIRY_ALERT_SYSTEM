@@ -1110,6 +1110,7 @@ END;
 ---
 
 ### **Get Product Name by Batch**
+<img width="960" height="504" alt="z Lookup Product Name by Batch" src="https://github.com/user-attachments/assets/08c6f32e-c5ea-4685-8a1d-36256581cb05" />
 
 **Purpose:** Returns product name linked to a batch.
 
@@ -1157,6 +1158,7 @@ END;
 ## **4️⃣ Analytical (Window) Queries**
 
 ### **Rank Products by Stock**
+<img width="960" height="506" alt="z Rank Products by Stock Quantity" src="https://github.com/user-attachments/assets/e279a9f0-3e7e-444d-ad9d-ef09e1fde3ce" />
 
 **Purpose:** Ranks products based on total stock quantity.
 
@@ -1172,6 +1174,7 @@ GROUP BY p.name;
 ---
 
 ### **Batch Expiry Order**
+<img width="956" height="503" alt="z Batch Expiry Order per Product" src="https://github.com/user-attachments/assets/91c1e8cf-28f6-4c5c-8faa-2d29a44b3ced" />
 
 **Purpose:** Orders batches by expiry date per product.
 
