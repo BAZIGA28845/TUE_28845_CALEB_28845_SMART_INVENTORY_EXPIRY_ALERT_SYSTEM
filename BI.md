@@ -117,6 +117,64 @@ Table: USER_ID, ROLE, PHONE
 * Dashboards updated monthly
 
 ---
+## **RUNNING CODES IN SQL**
+1️⃣ User Activity Analysis
+
+Sum of PHONE by USER_ID and ROLE
+<img width="959" height="291" alt="image" src="https://github.com/user-attachments/assets/6d8b9a25-2c4e-4206-90ab-b1bc21c2a021" />
+
+
+Table contains: USER_ID, ROLE, PHONE
+
+Create View for Power BI
+CREATE OR REPLACE VIEW vw_user_activity AS
+SELECT
+    user_id,
+    role,
+    SUM(phone) AS total_phone
+FROM users
+GROUP BY user_id, role;
+
+What this does
+
+Aggregates PHONE values
+
+Groups results by user and role
+
+Used for Audit / Performance Dashboard
+
+2️⃣ Product Value Analysis
+
+Sum of UNIT_PRICE by CATEGORY and CREATED_AT
+<img width="959" height="287" alt="image" src="https://github.com/user-attachments/assets/404a1708-7420-47ab-a1b6-1294e415296c" />
+
+
+
+Create View for Power BI
+CREATE OR REPLACE VIEW vw_product_value_trend AS
+SELECT
+    category,
+    TRUNC(created_at) AS created_date,
+    SUM(unit_price) AS total_value
+FROM product
+GROUP BY category, TRUNC(created_at);
+
+What this does
+
+Aggregates product value
+
+Groups by product category and creation date
+
+Used for Executive Summary Dashboard
+
+3️⃣ Optional: Total Product Value KPI
+<img width="960" height="262" alt="Total Product Value KPI" src="https://github.com/user-attachments/assets/56c53cd8-061b-46b9-93f2-911df8f22c36" />
+
+CREATE OR REPLACE VIEW vw_total_product_value AS
+SELECT
+    SUM(unit_price) AS total_product_value
+FROM product;
+
 
 ## **7️⃣ One-Line Examiner Justification**
 
