@@ -354,6 +354,7 @@ TEMPFILE '...sieas_temp01.dbf'
 SIZE 100M
 AUTOEXTEND ON NEXT 50M MAXSIZE UNLIMITED;
 ```
+<img width="949" height="337" alt="om table space" src="https://github.com/user-attachments/assets/6f96622d-4a11-40ba-93e2-f19ef0c605b8" />
 
 ---
 
