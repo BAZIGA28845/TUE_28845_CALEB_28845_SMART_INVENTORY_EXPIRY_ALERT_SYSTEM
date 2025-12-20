@@ -72,56 +72,56 @@ Below is a **short, clear summary of every phase**, written in **simple language
 ## **Phase I – Problem Definition & Requirements**
 
 Defined the inventory management problem, identified stakeholders, and gathered system requirements.
-Focused on preventing stock expiry and ensuring accurate inventory tracking.
+Focused on preventing stock expiry and ensuring accurate inventory tracking.[PHASEI](PHASEI.md) 
 
 ---
 
 ## **Phase II – Conceptual Database Design**
 
 Designed the **ER diagram** showing entities such as Product, Batch, and Expiry Alert.
-Defined relationships and business rules at a high level.
+Defined relationships and business rules at a high level.[PHASEII](PHASEII.md) 
 
 ---
 
 ## **Phase III – Logical Database Design**
 
 Converted the ER model into relational tables.
-Defined primary keys, foreign keys, and normalization rules.
+Defined primary keys, foreign keys, and normalization rules.[PHASEIII](PHASEIII.md) 
 
 ---
 
 ## **Phase IV – Physical Database Design**
 
 Implemented tables in Oracle using correct data types.
-Applied constraints, indexes, and tablespaces for performance and data integrity.
+Applied constraints, indexes, and tablespaces for performance and data integrity.|[PHASEIV](PHASEIV.md) 
 
 ---
 
 ## **Phase V – Data Implementation & Validation**
 
 Inserted realistic test data.
-Validated constraints, relationships, and data correctness using SQL queries.
+Validated constraints, relationships, and data correctness using SQL queries.[PHASEV](PHASEV.md) 
 
 ---
 
 ## **Phase VI – Database Interaction & Transactions**
 
 Developed PL/SQL procedures, functions, packages, and cursors.
-Implemented exception handling, logging, analytics, and window functions.
+Implemented exception handling, logging, analytics, and window functions.[PHASEVI](PHASEVI.md)
 
 ---
 
 ## **Phase VII – Advanced Programming & Auditing**
 
 Enforced business rules using triggers.
-Restricted PRODUCT operations on weekdays and public holidays and logged all actions using an audit system.
+Restricted PRODUCT operations on weekdays and public holidays and logged all actions using an audit system.[PHASEVII](PHASEVII.md)
 
 ---
 
 ## **Phase VIII – Reporting & Business Intelligence**
 
 Created SQL views and analytical queries.
-Defined KPIs, stakeholders, dashboards, and reporting frequency to support decision-making.
+Defined KPIs, stakeholders, dashboards, and reporting frequency to support decision-making.[PHASEVIII](PHASEVIII.md)
 
 ---
 
